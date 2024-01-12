@@ -42,7 +42,8 @@ def factorial (num):
         factorial *= i
         i += 1
         print(factorial)
-factorial (5) 
+factorial (num) 
+num = int(input("Enter number:"))
 
 # Question no: 5
 def is_palindrome(word):
@@ -97,12 +98,12 @@ my_list = [1,2,3]
 my_tuple = tuple(my_list)  
 print(my_tuple) 
 # output
-#
+# (1,2,3)
 
 student_info = {'name':'alice','age':20,'grade':'A'} 
 print(student_info['age']) 
 # output
-#
+# 20
 
 def square(x):
     return x ** 2
@@ -117,7 +118,7 @@ num2 = 3
 result = num1 % num2 
 print(result)
 # output
-#
+# 1
 
 value = 2**3*2
 print(value)
@@ -130,7 +131,7 @@ if x > 10 and x % 2 == 1:
 else:
     print("Not meeting criteria")  
 # output
-# 
+# Odd and greater than 10
 
 for i in range(2,8,2):
     print(i)
